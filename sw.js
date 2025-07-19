@@ -1,5 +1,5 @@
-const STATIC_CACHE = 'static-cache-v1'
-const DYNAMIC_CACHE = 'dynamic-cache-v1'
+const STATIC_CACHE = 'static-cache-v2'
+const DYNAMIC_CACHE = 'dynamic-cache-v2'
 
 const STATIC_FILES_TO_CHACHE = [
     'index.html',
@@ -7,7 +7,8 @@ const STATIC_FILES_TO_CHACHE = [
     'common.css',
     'index.css',
     'WaOpen.png',
-    'manifest.json'
+    'manifest.json',
+    'sw.js'
 ]
 
 self.addEventListener('install', function (event) {
