@@ -59,3 +59,14 @@
     padding-top: 60px;
     text-align: center;
 }
+
+.version {
+    color: lightgray;
+    font-family: "Baton-Black";
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding-top: 24px;
+    text-align: center;
+}

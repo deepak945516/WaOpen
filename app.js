@@ -66,8 +66,8 @@ openWhatsApppButton.addEventListener('click', (event) => {
 })
 
 function getLast10CharsWithoutSpaces(inputString) {
-    // Remove all spaces from the string
-    const stringWithoutSpaces = inputString.replace(/\s/g, '');
+    // Remove all spaces and all character except numbers
+    const stringWithoutSpaces = inputString.replace(/\D+/g, '');
 
     // Get the last 10 characters
     // If string is shorter than 10 chars, it will return the whole string
