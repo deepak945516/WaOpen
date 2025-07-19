@@ -1,0 +1,152 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+.nav-bar {}
+
+.title-subtitle {
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.title {
+    color: #343534;
+    font-family: "Baton-Black";
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding-top: 60px;
+}
+
+.subtitle {
+    color: #343534;
+    font-family: "Aeonik-Regular";
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.main {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.input-fields-container {
+    padding-top: 48px;
+}
+
+.outer-container {
+    margin-top: 24px;
+    /*Top Right Bottom Left*/
+}
+
+.inner-container {
+    height: 56px;
+    border-radius: 28px;
+    border: 1px solid #D2D6D5;
+}
+
+.field-label-container {
+    text-align: left;
+}
+
+.field-label {
+    display: inline-block;
+    color: #5C5E5F;
+    font-family: "Aeonik-Regular";
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: white;
+    margin-left: 25px;
+    transform: translateY(-24px);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.input-field-container {
+    display: flex;
+    margin: 8px 24px 8px 24px;
+    height: 32px;
+    transform: translateY(-38px);
+}
+
+.input-field {
+    border: none;
+    color: #343534;
+    font-family: "Aeonik-Regular";
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+}
+
+.field-right-icon {
+    border: none;
+    background-color: transparent;
+}
+
+#birth-date {
+    background-color: white;
+}
+
+.forgot-password-button-container {
+    text-align: right;
+}
+
+.forgot-password-button {
+    color: #086B6B;
+    margin-bottom: 24px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Aeonik-Regular';
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    margin-top: 8px;
+    text-align: right;
+}
+
+@media (min-width: 600px) {
+    .main {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 15px;
+    }
+
+    .main {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .field-label {
+        transform: translateY(-32px);
+    }
+
+    .input-field-container {
+        transform: translateY(-54px);
+    }
+}
+
+@media (min-width: 1000px) {
+    .main {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}

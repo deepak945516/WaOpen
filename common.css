@@ -1,0 +1,50 @@
+.centerWarpper {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.horizontal {
+    float: left;
+    margin: 0px;
+}
+
+.horizontal * {
+    display: inline-block;
+}
+
+.linkButton {
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.back-button {
+    margin: 12px 0px 0px 0px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    scale: 2;
+}
+
+.primary-button {
+    border: 2px solid black;
+    border-color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 28px;
+    background-color: #086B6B;
+    color: white;
+    height: 56px;
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.primary-button:hover {
+    color: white;
+    background-color: black;
+    border-color: #086B6B;
+}

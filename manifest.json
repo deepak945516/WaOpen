@@ -1,0 +1,19 @@
+{
+    "lang": "en-US",
+    "name": "WhatsAppOpen",
+    "short_name": "WaOpen",
+    "description": "Send WhatsApp Message Without Saving the Number.",
+    "start_url": "index.html",
+    "scope": ".",
+    "background_color": "#ffffff",
+    "theme_color": "#086B6B",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "WaOpen.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
