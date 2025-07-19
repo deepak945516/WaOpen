@@ -48,3 +48,14 @@
     background-color: black;
     border-color: #086B6B;
 }
+
+.author {
+    color: gray;
+    font-family: "Baton-Black";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: capitalize;
+    padding-top: 60px;
+    text-align: center;
+}
