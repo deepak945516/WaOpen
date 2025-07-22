@@ -1,5 +1,5 @@
-const STATIC_CACHE = 'static-cache-v3'
-const DYNAMIC_CACHE = 'dynamic-cache-v3'
+const STATIC_CACHE = 'static-cache-v4'
+const DYNAMIC_CACHE = 'dynamic-cache-v4'
 
 const STATIC_FILES_TO_CHACHE = [
     'index.html',
